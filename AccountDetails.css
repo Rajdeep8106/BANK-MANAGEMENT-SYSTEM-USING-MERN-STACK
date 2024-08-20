@@ -1,0 +1,45 @@
+.account-container {
+    display: flex; 
+    align-items: center; 
+}
+.text-account-container img {
+    height: 60px;
+    width: auto; 
+}
+
+.image-account-container {
+    background-image: url("../Images/image8.jpg"); 
+    background-size: cover; 
+    width: 130vh;
+    height: 90vh; 
+    border-radius: 10px; 
+    overflow: hidden; 
+}
+.text-account-container {
+    border: 1px solid rgba(0, 0, 0, 0.2); 
+    margin: 20px; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    background-color: #fff;
+    flex-grow: 1; 
+}
+.account-container img {
+    height: 60px; 
+    padding: 20px;
+}
+.account-container h2 {
+    color: #333366; 
+    padding-left: 40px; 
+    margin-bottom: 20px; 
+}
+.text-account-container p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #555; 
+}
+.text-account-container span {
+    color: green; 
+    font-size: 24px; 
+    font-weight: 600; 
+}

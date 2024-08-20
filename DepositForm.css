@@ -1,0 +1,78 @@
+.deposit-container{
+    display: flex;
+}
+.image-deposit-container{
+    background-image: url("../Images/image4.jpg");
+    background-size: 100% 100%;
+    width: 130vh;
+    height: 90vh;
+}
+.text-deposit-container p {
+    font-size: 18px;
+    color:#00BFFF; /* Color for paragraph text */
+    margin: 10px 0;
+}
+.text-deposit-container {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width:500px;
+}
+
+.logo-image {
+    display: block;
+    margin: 0 auto 20px;
+    height: 100px;
+    width: 300px;
+}
+
+.text-deposit-container h2 {
+    color: #333366;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.text-deposit-container .info {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.text-deposit-container label {
+    display: block;
+    margin: 10px 0 5px 40px;
+    font-size: 16px;
+    color: #0066cc; /* Label color */
+}
+
+.text-deposit-container input {
+    border: 1px solid #838cef;
+    padding: 10px;
+    border-radius: 10px;
+    width: calc(100% - 80px);
+    display: block;
+    margin: 0 auto 20px;
+    font-size: 16px;
+}
+
+.text-deposit-container button {
+    background-color: #333366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    width: calc(100% - 80px);
+    display: block;
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+.text-deposit-container button:hover {
+    background-color: #a4a4db;
+}
